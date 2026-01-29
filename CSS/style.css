@@ -1,0 +1,40 @@
+/* #navBar{
+    display: flex;
+    flex-direction: row;
+} */
+h1{
+    padding-top:12px ;
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #1F1F1F;
+}
+body{
+    background-color: #FAFAFA;
+}
+nav{
+    display: flex;
+    padding-top: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    border-bottom: 2px  solid black;
+    background-color: #2C2C2C;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+#logo h1{
+    margin: 0;
+}
+#logo img{
+    display: block;
+}
+
