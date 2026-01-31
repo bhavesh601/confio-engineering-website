@@ -59,16 +59,19 @@ header{
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(6px);
     border-bottom: 2px  solid black;
-    
+    z-index: 2;
 }
 
 #hero-content{
-    padding-top: 120px;
+    padding-top: 200px;
     width: 700px;
-    height: 350px;
+    max-width: 1200px;
     font-size: x-large;
     font-family: Roboto;
     z-index: 1;
+    margin: 0 auto ;
+    text-align: center;
+
 }
 #logo{
     display: flex;
@@ -133,4 +136,8 @@ a:hover{
     position: absolute;
     inset: 0;
     background: rgba(255, 255, 255, 0.85); 
+}
+#foot{
+    border-top: #4369c3;
+    background-color: #092BA2;
 }
