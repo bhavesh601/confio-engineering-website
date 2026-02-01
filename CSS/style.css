@@ -103,13 +103,13 @@ a:hover{
 }
 #home_text{
     width: 700px;
-    height: 350px;
+    height: auto;
     font-size: x-large;
     font-family: Roboto;
     
 }
 .home{
-   height: 500px;
+   height: auto;
    width: 100%;
    display: flex;
   
@@ -135,6 +135,10 @@ a:hover{
    font-size: large;
    font-family: "Inter", sans-serif;
 }
+/* #home_text p:hover{
+    font-size: larger;
+    transition: ease-out 0.2s;
+} */
 #hero::before{
     content: "";
     position: absolute;
@@ -173,3 +177,23 @@ a:hover{
     line-height: 1.6;
     text-shadow: 0 1px 2px rgba(0,0,0,0.35);
 } */
+ #p1{
+    border: #000000 solid 2px;
+    height: 500px;
+    width: 500px;
+    margin-left: 80px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 2px #000000;
+    
+ }
+ #Services{
+    padding-top:80px ;
+    padding-bottom: 80px;
+ }
+ #product{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+ }
