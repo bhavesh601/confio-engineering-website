@@ -113,7 +113,7 @@ a:hover{
    width: 100%;
    display: flex;
   
-   /* justify-content: center; */
+   justify-content: center;
    padding-top: 20px;
    
 }
@@ -121,14 +121,19 @@ a:hover{
     height: 266px;
     width: 40px;
 }
-#home_text p{
-    font-size: medium;
-    margin-bottom: 100px;
-}
+
 #home_text h2{
     text-align: center;
     font-size: xx-large;
     margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+#home_text p{
+    width: 800px;
+    padding-top: 20px;
+   text-align: center;
+   font-size: large;
+   font-family: "Inter", sans-serif;
 }
 #hero::before{
     content: "";
@@ -151,3 +156,20 @@ a:hover{
     width: 400px;
     height: 400px;
 }
+/* #para_img{
+    height: 500px;
+    width: 500px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    background-image: url("../Image/text.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.35);
+} */
